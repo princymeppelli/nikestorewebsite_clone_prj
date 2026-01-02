@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>User Login</title>
+</head>
+<body>
+
+<form action="action_page.php" method="post" class="form-container">
+    <div class="imgcontainer">
+        <img src="images/nike.png" alt="NikeLogo" class="avatar" width="100px">
+        <img src="images/air-jordan-logo.png" alt="JordanLogo" class="avatar" width="100px">
+    </div>
+
+    <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit">Login</button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+
+        <p>Don't have an account? <a href="signup.html">Sign up instead</a>.</p>
+        <p>Admin? <a href="adminlogin.html">Login as Admin</a>.</p>
+    </div>
+</form>
+
+</body>
+</html>
